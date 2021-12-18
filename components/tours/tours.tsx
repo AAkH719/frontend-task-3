@@ -4,37 +4,37 @@ import { useState } from "react"
 const allTours: ToursItem[] = [
 	{
 		class: 'tour',
-		title: 'Навизвание',
+		title: 'Название',
 		description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perspiciatis.',
 		price: '10 000'
 	},
 	{
 		class: 'tour',
-		title: 'Навизвание',
+		title: 'Название',
 		description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perspiciatis.',
 		price: '10 000'
 	},
 	{
 		class: 'tour--hidden',
-		title: 'Навизвание',
+		title: 'Название',
 		description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perspiciatis.',
 		price: '10 000'
 	},
 	{
 		class: 'tour--hidden',
-		title: 'Навизвание',
+		title: 'Название',
 		description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perspiciatis.',
 		price: '10 000'
 	},
 	{
 		class: 'tour--hidden',
-		title: 'Навизвание',
+		title: 'Название',
 		description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perspiciatis.',
 		price: '10 000'
 	},
 	{
 		class: 'tour--hidden',
-		title: 'Навизвание',
+		title: 'Название',
 		description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perspiciatis.',
 		price: '10 000'
 	},
@@ -46,6 +46,8 @@ export function Tours() {
 	const [visible, setVisible] = useState(true)
 	const [nameButtonMoreTours, setNameButtonMoreTours] = useState('Больше')
 	const ClickButtonMoreTours = () => {
+
+
 		if (visible) {
 			MoreTours = document.getElementsByClassName('tour--hidden')
 			let QuantityMoreTours: number = MoreTours.length;
