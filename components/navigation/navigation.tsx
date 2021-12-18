@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { NavigationAllLink, NavigationLink } from "./navigation-link";
 
 const allLink: NavigationAllLink[] = [
@@ -18,6 +17,7 @@ const allLink: NavigationAllLink[] = [
 		name: "Контакты",
 		href: "/#title_list3"
 	},
+
 ]
 
 export const Navigation = (props: { isMenuVisible: boolean }) => {
